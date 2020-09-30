@@ -1,0 +1,261 @@
+,State,Race,Age_Adjusted_Rate,Standard_Error,Lower_Confidence_Interval,Upper_Confidence_Interval,Count,Population,Std_Pop
+1,Alabama,Black,31.7,2.2,NA,10.5,NA,66833706,274633642
+2,Alabama,Other unspecified (1978-1991),20.4,0.2,19.1,NA,78,344533,274633642
+74,Alabama,White,23.8,1.3,NA,34.5,694,0,274633642
+75,Alabama,American Indian/Alaska Native,8.3,1,4,14.6,4238,0,274633642
+76,Alabama,Asian or Pacific Islander,24.6,1,14.6,13.1,NA,344504,274633642
+3,Alaska,Black,18.7,0.2,NA,NA,18152,341172,274633642
+4,Alaska,American Indian/Alaska Native,31.5,2.9,23,13.7,NA,27884233,274633642
+5,Alaska,Other unspecified (1978-1991),26.3,1.4,10.2,10.9,9643,5709692,274633642
+77,Alaska,White,15.1,NA,24,NA,NA,8146912,274633642
+78,Alaska,Asian or Pacific Islander,8.5,0.3,NA,23.6,NA,23379955,274633642
+6,Arizona,Other unspecified (1978-1991),14,1.6,11.1,25.6,20,0,274633642
+79,Arizona,White,14.8,2.1,23.4,NA,NA,0,274633642
+80,Arizona,Black,31.8,1.9,1.8,12.7,NA,1596141,274633642
+81,Arizona,American Indian/Alaska Native,17.5,0.2,26.3,35.2,310,478807,274633642
+82,Arizona,Asian or Pacific Islander,13.7,0.9,NA,33.8,72,2324138,274633642
+7,Arkansas,Asian or Pacific Islander,9.4,2,20.7,16.8,11,0,274633642
+83,Arkansas,White,26.9,0.3,NA,23.6,NA,0,274633642
+84,Arkansas,Black,7.3,NA,4.9,23.5,4489,11745103,274633642
+85,Arkansas,American Indian/Alaska Native,13.8,0.3,14.9,26.4,2995,3173476,274633642
+86,Arkansas,Other unspecified (1978-1991),15.9,0.5,NA,11.7,37,72651277,274633642
+8,California,White,4.5,NA,3.5,25.3,NA,0,274633642
+87,California,Black,26.6,1,21.5,19.7,NA,208458,274633642
+88,California,American Indian/Alaska Native,34,NA,NA,8.7,NA,1594734,274633642
+89,California,Asian or Pacific Islander,34,0.4,22.5,NA,6502,66271445,274633642
+90,California,Other unspecified (1978-1991),25.9,0.2,32,37.4,2571,0,274633642
+91,Colorado,White,35.3,5,25.9,34.1,9574,24401,274633642
+92,Colorado,Black,5,1.5,13.5,33.5,6801,0,274633642
+93,Colorado,American Indian/Alaska Native,30.8,0.1,NA,15.6,20364,2552038,274633642
+94,Colorado,Asian or Pacific Islander,8.2,NA,NA,35.2,22003,45832,274633642
+95,Colorado,Other unspecified (1978-1991),8.9,2.5,23.8,NA,13153,377316,274633642
+9,Connecticut,American Indian/Alaska Native,15.5,NA,NA,NA,716,11767671,274633642
+96,Connecticut,White,10.1,1.9,9.8,16.2,NA,1108150,274633642
+97,Connecticut,Black,14.2,1.8,NA,20.2,25,1482997,274633642
+98,Connecticut,Asian or Pacific Islander,23.2,0.2,13.1,26.1,113,84239522,274633642
+99,Connecticut,Other unspecified (1978-1991),23.4,NA,24.7,NA,107,3160341,274633642
+10,Delaware,Black,3.6,0.4,30.4,NA,25152,136673120,274633642
+11,Delaware,Other unspecified (1978-1991),25,1.8,3.6,13.2,1252,2423907,274633642
+100,Delaware,White,26.7,1.5,23.1,NA,1869,159299,274633642
+101,Delaware,American Indian/Alaska Native,10.2,NA,10.4,10.2,10,211892,274633642
+102,Delaware,Asian or Pacific Islander,25.7,NA,9,10.5,27,694034,274633642
+12,Florida,Black,24.5,NA,28,38.5,19,2468969,274633642
+13,Florida,American Indian/Alaska Native,26.9,1.6,9.9,35.1,4465,0,274633642
+14,Florida,Other unspecified (1978-1991),25.1,NA,12.4,25,NA,1404831,274633642
+108,Florida,White,27.6,0.3,24.8,NA,119,0,274633642
+109,Florida,Asian or Pacific Islander,22.2,0.9,7.8,24,NA,104981,274633642
+110,Georgia,White,23,NA,32.5,24.7,NA,2449362,274633642
+111,Georgia,Black,23.2,0.2,19.8,10.4,21023,349286,274633642
+112,Georgia,American Indian/Alaska Native,24.9,0.3,23.3,NA,311,277184,274633642
+113,Georgia,Asian or Pacific Islander,27.8,NA,18,32.7,6761,50237,274633642
+114,Georgia,Other unspecified (1978-1991),7.9,0.4,8.6,33,13,39951910,274633642
+15,Hawaii,White,22.9,0.3,22.3,23.6,NA,0,274633642
+115,Hawaii,Black,11.9,NA,34.5,46.2,772,46993962,274633642
+116,Hawaii,American Indian/Alaska Native,25.4,0.9,13.6,NA,385,43392368,274633642
+117,Hawaii,Asian or Pacific Islander,6.8,0.2,NA,29.3,18,64232,274633642
+118,Hawaii,Other unspecified (1978-1991),20.2,0.7,6,23.8,32641,689435,274633642
+72,Hurricane Katrina/Rita Evacuees - Populations Only - 2005,American Indian/Alaska Native,16.4,1.6,NA,NA,20,0,274633642
+73,Hurricane Katrina/Rita Evacuees - Populations Only - 2005,Asian or Pacific Islander,1.9,0.2,23.1,24.3,5287,75220364,274633642
+258,Hurricane Katrina/Rita Evacuees - Populations Only - 2005,White,8.3,NA,NA,28.4,NA,419822,274633642
+259,Hurricane Katrina/Rita Evacuees - Populations Only - 2005,Black,26.5,0.2,NA,NA,11828,16871964,274633642
+260,Hurricane Katrina/Rita Evacuees - Populations Only - 2005,Other unspecified (1978-1991),33.6,1.8,6.3,NA,NA,0,274633642
+16,Idaho,Black,21.6,0.6,14.8,28.4,7165,0,274633642
+17,Idaho,Other unspecified (1978-1991),18.1,0.8,25.5,11.4,NA,230338,274633642
+119,Idaho,White,6.9,0.5,23.7,11,56151,1143564,274633642
+120,Idaho,American Indian/Alaska Native,24.1,0.4,37.5,12.6,NA,120275273,274633642
+121,Idaho,Asian or Pacific Islander,25,NA,NA,NA,26,14654098,274633642
+122,Illinois,White,23.3,1.4,22.1,26.3,634,165018,274633642
+123,Illinois,Black,16.2,NA,33.9,13.3,9253,16993513,274633642
+124,Illinois,American Indian/Alaska Native,10.2,1.3,33.1,39.6,14,0,274633642
+125,Illinois,Asian or Pacific Islander,28.9,2.2,28.6,NA,195,226904488,274633642
+126,Illinois,Other unspecified (1978-1991),35,1.3,NA,13.5,134,0,274633642
+127,Indiana,White,23.9,0.2,22.6,9.7,61,42879,274633642
+128,Indiana,Black,9.5,NA,NA,20.5,14,46874137,274633642
+129,Indiana,American Indian/Alaska Native,24.8,NA,10.4,57.9,NA,0,274633642
+130,Indiana,Asian or Pacific Islander,29,1.5,3.3,24.3,6643,0,274633642
+131,Indiana,Other unspecified (1978-1991),12,0.4,23.2,12.6,25,0,274633642
+18,Iowa,Black,7.2,3.5,26.3,15.1,79,88604,274633642
+19,Iowa,Asian or Pacific Islander,24.6,0.7,NA,16.2,9918,210559,274633642
+20,Iowa,Other unspecified (1978-1991),11,0.2,17.1,24.5,185,0,274633642
+132,Iowa,White,28.9,0.8,NA,NA,114,0,274633642
+133,Iowa,American Indian/Alaska Native,23.3,0.8,NA,NA,10257,21343779,274633642
+21,Kansas,Black,27.9,NA,30.9,52.9,NA,45338772,274633642
+22,Kansas,Asian or Pacific Islander,15.4,0.4,23.7,NA,14,0,274633642
+134,Kansas,White,27.1,NA,30.2,36.6,407,18269837,274633642
+135,Kansas,American Indian/Alaska Native,9.1,0.4,6,30.4,42,2080499,274633642
+136,Kansas,Other unspecified (1978-1991),10.3,NA,10,NA,NA,2462948,274633642
+137,Kentucky,White,24.8,0.9,NA,32.2,28,37932890,274633642
+138,Kentucky,Black,39.1,3.5,9.9,NA,NA,63970,274633642
+139,Kentucky,American Indian/Alaska Native,29.5,NA,NA,24.6,NA,8469847,274633642
+140,Kentucky,Asian or Pacific Islander,29.8,1.4,29.7,NA,NA,110802,274633642
+141,Kentucky,Other unspecified (1978-1991),24.9,0.1,23.9,32.6,6282,9590063,274633642
+23,Louisiana,Asian or Pacific Islander,10.2,NA,13.6,16.6,75,2787834,274633642
+142,Louisiana,White,12,3.7,10.4,19.6,478,12410158,274633642
+143,Louisiana,Black,30.4,2.9,NA,34.9,576,311675,274633642
+144,Louisiana,American Indian/Alaska Native,24.2,0.2,11,31.5,53,272962,274633642
+145,Louisiana,Other unspecified (1978-1991),35,NA,28,32.6,NA,0,274633642
+24,Maine,Black,25.3,0.8,27.1,34.6,2347,56674,274633642
+25,Maine,Asian or Pacific Islander,19,0.1,22.7,14.6,NA,562739,274633642
+146,Maine,White,23.5,4.9,NA,11.8,NA,916076,274633642
+147,Maine,American Indian/Alaska Native,33.4,NA,NA,10.8,8859,6019397,274633642
+148,Maine,Other unspecified (1978-1991),12.2,0.6,NA,35.4,26,0,274633642
+26,Maryland,American Indian/Alaska Native,41.8,0.7,13.3,36.4,32,287421,274633642
+27,Maryland,Asian or Pacific Islander,20.1,2,34.8,34.7,21955,74492668,274633642
+28,Maryland,Other unspecified (1978-1991),17.8,0.8,NA,26.9,83,148482193,274633642
+149,Maryland,White,11.4,0.4,NA,32.4,20333,220360,274633642
+150,Maryland,Black,9.7,4.8,NA,29.2,624,78815409,274633642
+29,Massachusetts,White,22,1.3,4.3,31.5,114,71225,274633642
+30,Massachusetts,Black,19.6,2.3,16.3,38.7,878,219350,274633642
+31,Massachusetts,Other unspecified (1978-1991),16.6,NA,18.8,24,8441,479315,274633642
+151,Massachusetts,American Indian/Alaska Native,10.3,1.2,25.4,NA,374,0,274633642
+152,Massachusetts,Asian or Pacific Islander,25.5,0.8,2.6,41,214,124769,274633642
+32,Michigan,Other unspecified (1978-1991),6.2,1.6,NA,34.8,1141,169874737,274633642
+153,Michigan,White,23.2,2.2,NA,24.9,10,19055462,274633642
+154,Michigan,Black,35.7,NA,3.7,NA,NA,4367058,274633642
+155,Michigan,American Indian/Alaska Native,23.9,1.1,NA,25.5,2450,2672953,274633642
+156,Michigan,Asian or Pacific Islander,23.9,1.7,NA,NA,87,20323516,274633642
+157,Minnesota,White,20.2,1.2,9.4,NA,235,0,274633642
+158,Minnesota,Black,9.1,0.5,8.1,24.2,36,52560818,274633642
+159,Minnesota,American Indian/Alaska Native,24,1.6,NA,11.9,NA,0,274633642
+160,Minnesota,Asian or Pacific Islander,32.3,5.9,7.5,23.1,13571,366661,274633642
+161,Minnesota,Other unspecified (1978-1991),31.8,NA,24.5,24.7,NA,937459,274633642
+33,Mississippi,Black,22.5,NA,5.8,26.3,239,0,274633642
+34,Mississippi,Asian or Pacific Islander,11.6,1.9,30.9,NA,4478,4797715,274633642
+162,Mississippi,White,23.2,2.7,25.1,23.4,11587,38850702,274633642
+163,Mississippi,American Indian/Alaska Native,10.2,2.5,5.8,12.2,19,48619689,274633642
+164,Mississippi,Other unspecified (1978-1991),9.3,5.8,4.5,24.4,126,172729,274633642
+35,Missouri,White,19.7,NA,33.6,9.9,NA,0,274633642
+36,Missouri,American Indian/Alaska Native,11.2,0.3,22.4,NA,1714,5348185,274633642
+37,Missouri,Asian or Pacific Islander,31.3,NA,NA,NA,84579,956084,274633642
+165,Missouri,Black,26.3,NA,22.7,NA,6252,107709,274633642
+166,Missouri,Other unspecified (1978-1991),21.9,0.7,24.1,18.8,2993,161236,274633642
+167,Montana,White,32,0.4,4.7,23.9,1379,9851666,274633642
+168,Montana,Black,11.5,NA,6.6,15.2,5470,21260492,274633642
+169,Montana,American Indian/Alaska Native,17.2,0.1,9.6,NA,NA,186552,274633642
+170,Montana,Asian or Pacific Islander,23.7,NA,17.8,NA,12244,4629482,274633642
+171,Montana,Other unspecified (1978-1991),19.6,0.1,25.2,36.7,NA,15611251,274633642
+38,Nebraska,White,38,0.4,26.5,NA,NA,4817564,274633642
+172,Nebraska,Black,27.7,0.2,35.1,20,62694,12261453,274633642
+173,Nebraska,American Indian/Alaska Native,32.4,NA,9.8,36.3,NA,64940868,274633642
+174,Nebraska,Asian or Pacific Islander,24.8,0.2,NA,11.1,NA,8458187,274633642
+175,Nebraska,Other unspecified (1978-1991),9.4,0.6,NA,NA,13,100083,274633642
+39,Nevada,American Indian/Alaska Native,17.4,NA,23.5,34.9,59024,372029,274633642
+40,Nevada,Asian or Pacific Islander,28.7,3.6,7.5,27.1,228,21485468,274633642
+176,Nevada,White,23.3,1.3,34.1,31.4,76,7403691,274633642
+177,Nevada,Black,10.3,0.4,23.6,NA,24,342027,274633642
+178,Nevada,Other unspecified (1978-1991),30.3,0.6,NA,NA,2939,1979,274633642
+41,New Hampshire,White,24,0.4,22.4,23.8,4612,6405563,274633642
+179,New Hampshire,Black,23.3,NA,11.3,12.1,6435,249768,274633642
+180,New Hampshire,American Indian/Alaska Native,10.2,0.2,33.3,NA,NA,0,274633642
+181,New Hampshire,Asian or Pacific Islander,35.8,0.3,28.5,25.4,228,18649422,274633642
+182,New Hampshire,Other unspecified (1978-1991),9.1,0.8,8.7,31.8,533,38221612,274633642
+42,New Jersey,White,27.1,1.4,NA,NA,42360,32952394,274633642
+43,New Jersey,Other unspecified (1978-1991),11.8,NA,9.6,17.9,NA,0,274633642
+183,New Jersey,Black,34.6,0.1,22.6,NA,2346,760280,274633642
+184,New Jersey,American Indian/Alaska Native,34.6,2.2,24.4,14.7,NA,50768,274633642
+185,New Jersey,Asian or Pacific Islander,23.5,1.6,33.7,24.6,46,421116,274633642
+44,New Mexico,White,22.1,0.3,6.4,13.3,22,11305372,274633642
+45,New Mexico,American Indian/Alaska Native,26.6,0.7,21.8,NA,46477,68265786,274633642
+186,New Mexico,Black,21.7,NA,25.8,9.8,47967,108405,274633642
+187,New Mexico,Asian or Pacific Islander,9.3,0.3,10.9,11.7,31,69498,274633642
+188,New Mexico,Other unspecified (1978-1991),25.1,NA,NA,35.3,NA,679504,274633642
+189,New York,White,26.4,0.6,22.5,24.4,20048,21011950,274633642
+190,New York,Black,35.6,NA,33.2,26.1,5458,16816154,274633642
+191,New York,American Indian/Alaska Native,24.9,NA,24.2,NA,NA,28648137,274633642
+192,New York,Asian or Pacific Islander,9.9,4.7,11.3,29.8,NA,472838,274633642
+193,New York,Other unspecified (1978-1991),22.7,1.9,NA,12.1,70,838976,274633642
+46,North Carolina,Asian or Pacific Islander,29.6,10.7,6,13.7,NA,153728692,274633642
+47,North Carolina,Other unspecified (1978-1991),20.7,0.4,NA,14.3,718,62172886,274633642
+194,North Carolina,White,6,NA,23.8,34.4,316,5197331,274633642
+195,North Carolina,Black,33.6,2.2,NA,10.5,8202,39784620,274633642
+196,North Carolina,American Indian/Alaska Native,11.2,0.4,NA,NA,163,1006222,274633642
+48,North Dakota,Black,16,0.8,10.3,14.6,277,4006905,274633642
+197,North Dakota,White,23.2,0.9,9.7,36.2,NA,305016,274633642
+198,North Dakota,American Indian/Alaska Native,24.5,2.1,31.6,11.6,18,868958,274633642
+199,North Dakota,Asian or Pacific Islander,10.1,1.5,NA,7.8,48,40689,274633642
+200,North Dakota,Other unspecified (1978-1991),7.3,0.1,5.5,28.2,59,37863496,274633642
+49,Ohio,Other unspecified (1978-1991),43.8,NA,NA,23.6,NA,24823423,274633642
+201,Ohio,White,12.5,2.2,24.6,14.4,70,6378601,274633642
+202,Ohio,Black,11.1,7.4,3.6,NA,15676,8344486,274633642
+203,Ohio,American Indian/Alaska Native,6.2,1.3,NA,23.5,19,0,274633642
+204,Ohio,Asian or Pacific Islander,15.8,0.4,3.6,NA,945,475290,274633642
+50,Oklahoma,White,25.6,NA,26.4,15,10874,4517689,274633642
+51,Oklahoma,Black,22.5,NA,16.1,NA,5389,0,274633642
+52,Oklahoma,American Indian/Alaska Native,18,1.7,6.2,27.2,8926,0,274633642
+205,Oklahoma,Asian or Pacific Islander,28.2,NA,7.8,NA,56,175154,274633642
+206,Oklahoma,Other unspecified (1978-1991),27.2,2.1,25.4,NA,2284,0,274633642
+53,Oregon,Asian or Pacific Islander,8.9,1.4,8.5,13.1,15600,119909,274633642
+207,Oregon,White,23.1,1.6,NA,10.6,NA,689869,274633642
+208,Oregon,Black,15.9,NA,NA,NA,1100,37507716,274633642
+209,Oregon,American Indian/Alaska Native,25.2,NA,13.1,25.5,17,68086076,274633642
+210,Oregon,Other unspecified (1978-1991),9.7,NA,7.8,24.7,569,4179270,274633642
+54,Pennsylvania,American Indian/Alaska Native,21.3,0.7,24.4,NA,30,110641464,274633642
+211,Pennsylvania,White,24.1,1,32.2,NA,361,336687,274633642
+212,Pennsylvania,Black,24.9,5.7,NA,23.7,NA,8355427,274633642
+213,Pennsylvania,Asian or Pacific Islander,34.1,0.6,NA,34.9,NA,376846,274633642
+214,Pennsylvania,Other unspecified (1978-1991),12,0.5,6.4,12.7,NA,910580,274633642
+55,Rhode Island,American Indian/Alaska Native,31.3,NA,15.3,NA,NA,0,274633642
+215,Rhode Island,White,22.9,1.5,8.1,18.1,563,771526,274633642
+216,Rhode Island,Black,12,1.5,NA,12.4,495,0,274633642
+217,Rhode Island,Asian or Pacific Islander,11,0.5,12.3,NA,73,269774,274633642
+218,Rhode Island,Other unspecified (1978-1991),20.4,0.1,24.6,NA,29,0,274633642
+219,South Carolina,White,12.5,NA,22.9,NA,73,2164557,274633642
+220,South Carolina,Black,30.6,0.2,22.6,10.3,28,0,274633642
+221,South Carolina,American Indian/Alaska Native,16.1,2.6,10.9,11.9,108,27609088,274633642
+222,South Carolina,Asian or Pacific Islander,23.1,NA,8.3,36.3,98,0,274633642
+223,South Carolina,Other unspecified (1978-1991),6.8,0.2,27,NA,NA,3119916,274633642
+56,South Dakota,American Indian/Alaska Native,25.7,NA,21.1,25.1,248,405142,274633642
+224,South Dakota,White,34.2,0.2,NA,NA,NA,1896650,274633642
+225,South Dakota,Black,29.8,5.8,23,13.9,NA,1133596,274633642
+226,South Dakota,Asian or Pacific Islander,9,2.7,29.2,27,1124,2531929,274633642
+227,South Dakota,Other unspecified (1978-1991),33.9,NA,22.9,13.2,25,198241,274633642
+57,Tennessee,White,24,NA,24.8,NA,5848,17863061,274633642
+58,Tennessee,Asian or Pacific Islander,30.8,NA,7.8,36.6,38,24468410,274633642
+59,Tennessee,Other unspecified (1978-1991),17.7,0.4,NA,NA,34341,33889,274633642
+228,Tennessee,Black,29.4,0.2,NA,NA,10,0,274633642
+229,Tennessee,American Indian/Alaska Native,16.2,NA,NA,26.8,34,3576221,274633642
+230,Texas,White,29,1.4,26.3,22.4,129,108434,274633642
+231,Texas,Black,7,4.5,9.1,25,12577,0,274633642
+232,Texas,American Indian/Alaska Native,10.2,0.3,8,36,6425,1265950,274633642
+233,Texas,Asian or Pacific Islander,8.4,NA,31,NA,12,0,274633642
+234,Texas,Other unspecified (1978-1991),22.7,2,21.7,13.8,24,1109304,274633642
+60,Utah,White,15,NA,NA,27.6,23095,75088248,274633642
+235,Utah,Black,26.2,0.4,4.1,26.9,224,3605657,274633642
+236,Utah,American Indian/Alaska Native,24.4,0.1,7.5,NA,NA,683043,274633642
+237,Utah,Asian or Pacific Islander,23.1,NA,NA,NA,224,30452409,274633642
+238,Utah,Other unspecified (1978-1991),9.1,NA,NA,35.3,865,2329998,274633642
+239,Vermont,White,23.1,0.2,26,25.7,NA,922677,274633642
+240,Vermont,Black,19.5,1.5,9.3,24.3,NA,386500,274633642
+241,Vermont,American Indian/Alaska Native,9.7,0.9,NA,24.5,NA,1493115,274633642
+242,Vermont,Asian or Pacific Islander,21.6,0.5,NA,24.2,1603,0,274633642
+243,Vermont,Other unspecified (1978-1991),5.9,2,7.2,29.6,33,6742400,274633642
+61,Virginia,Asian or Pacific Islander,22,NA,8.9,23.3,279,3007613,274633642
+244,Virginia,White,28.6,NA,NA,NA,NA,0,274633642
+245,Virginia,Black,12.5,NA,33.8,15.6,NA,2590810,274633642
+246,Virginia,American Indian/Alaska Native,27.4,1,NA,35.8,9331,837553,274633642
+247,Virginia,Other unspecified (1978-1991),13.6,0.3,NA,NA,16,38361112,274633642
+62,Washington,White,13.8,0.5,NA,40.7,617,0,274633642
+63,Washington,American Indian/Alaska Native,16.6,NA,19.2,17.5,NA,376,274633642
+64,Washington,Asian or Pacific Islander,20,NA,22.2,9.8,94,0,274633642
+65,Washington,Other unspecified (1978-1991),18,2.6,24.4,NA,NA,0,274633642
+248,Washington,Black,34.2,0.3,27.3,27.4,NA,0,274633642
+103,Washington DC,White,30.9,0.4,5.9,NA,18,930158,274633642
+104,Washington DC,Black,35.7,2.2,7.6,NA,NA,331913,274633642
+105,Washington DC,American Indian/Alaska Native,30.6,NA,NA,23.7,NA,32094749,274633642
+106,Washington DC,Asian or Pacific Islander,10.1,1.3,NA,24.6,3515,17954357,274633642
+107,Washington DC,Other unspecified (1978-1991),23.8,0.7,7.5,NA,NA,624004,274633642
+66,West Virginia,Other unspecified (1978-1991),16,0.2,24.7,14,12950,17887557,274633642
+249,West Virginia,White,19.2,1.3,8.5,11.7,26285,1285421,274633642
+250,West Virginia,Black,14.6,0.2,34.6,24.3,13513,42122175,274633642
+251,West Virginia,American Indian/Alaska Native,4.1,NA,31.6,22.3,NA,4013910,274633642
+252,West Virginia,Asian or Pacific Islander,9.5,0.2,23.8,NA,16252,159812611,274633642
+67,Wisconsin,Asian or Pacific Islander,5.7,0.4,22.8,13.4,12,5792941,274633642
+253,Wisconsin,White,18.8,2.8,3.4,NA,180,355898,274633642
+254,Wisconsin,Black,12.7,0.3,23.6,33,NA,99923,274633642
+255,Wisconsin,American Indian/Alaska Native,6.2,0.8,8.4,26.7,4581,0,274633642
+256,Wisconsin,Other unspecified (1978-1991),26.5,0.1,NA,11.5,167,119756,274633642
+68,Wyoming,Black,11.1,NA,11,25.2,NA,43190,274633642
+69,Wyoming,American Indian/Alaska Native,18.8,8.4,21.8,33.2,NA,876435,274633642
+70,Wyoming,Asian or Pacific Islander,8.5,NA,NA,21.5,NA,3725508,274633642
+71,Wyoming,Other unspecified (1978-1991),5.4,2,NA,28.4,NA,290120,274633642
+257,Wyoming,White,10.5,NA,NA,NA,15,0,274633642
