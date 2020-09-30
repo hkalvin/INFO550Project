@@ -8,7 +8,7 @@ To analyze the data you will need to install some `R` packages. The required pac
 installed_pkgs <- row.names(installed.packages())
 pkgs <- c("readr", "ggplot2","tidyverse","magrittr","kableExtra")
 for(p in pkgs){
-	if(!(p %in% install_pkgs)){
+	if(!(p %in% installed_pkgs)){
 		install.packages(p)
 	}
 }
