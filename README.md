@@ -6,7 +6,7 @@ To analyze the data you will need to install some `R` packages. The required pac
 
 ``` r
 installed_pkgs <- row.names(installed.packages())
-pkgs <- c("RCurl", "ggplot2","tidyverse","magrittr","kableExtra")
+pkgs <- c("readr", "ggplot2","tidyverse","magrittr","kableExtra")
 for(p in pkgs){
 	if(!(p %in% install_pkgs)){
 		install.packages(p)

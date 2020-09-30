@@ -1,0 +1,180 @@
+---
+title: "INFO 550 Homework 4"
+author: "Hannah Kalvin"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+---
+
+```{r, setupfile, include=FALSE}
+#! /usr/local/bin/r
+knitr::opts_chunk$set(
+  echo = FALSE, warning = FALSE, message=FALSE, fig.width = 5, fig.height = 5, fig.align = "center"
+)
+```
+
+## Introduction
+This document looks at breast cancer age adjusted mortality rates in non-Hispanic women between 2003 and 2017. We specifically compare mortality rates among non-Hispanic white women and non-Hispanic Black women on the state level. In order to make the output easier to evaluate, tables and figures are grouped by region (as defined by the United States Census Bureau). Breast cancer age-adjusted mortality rates were extracted from SEER and calculated using standardized populations from the United States Census Bureau. Note that all data has been scrambled or replaced with simulated values so that this can be publicly viewed.
+
+```{r, load_ds_and_packages}
+#NOTE: packages must be installed in R before being loaded below. See README.md file for instructions
+
+#load packages
+library(tidyverse)
+library(magrittr)
+library(kableExtra)
+library(ggplot2)
+library (readr)
+
+#note that data has been shuffled and simulated in order 
+#read in SEER dataset
+#read in data from github
+urlfile="https://raw.githubusercontent.com/hkalvin/INFO550Project/master/fulldata2.csv"
+
+ds<-read_csv(url(urlfile),col_names=TRUE)
+
+#NOTE: change path to where you saved file on your computer
+#path<-"~/Documents/Fall 2020/INFO 550/HW4"
+# setwd(path)
+```
+
+```{r, cleandata}
+#filter dataset
+ds1<-filter(ds, Race!="Other unspecified (1978-1991)" & Race!="American Indian/Alaska Native" & Race!="Asian or Pacific Islander" & State!="Washington DC" & State!="Hurricane Katrina/Rita Evacuees - Populations Only - 2005")
+
+#select variables to analyze
+ds2<-subset(ds1,select=c("State","Race","Age_Adjusted_Rate"))
+
+#check dataset
+#str(ds2)
+
+#Look at white age-adjusted breast cancer mortality by state
+ds2_w<-filter(ds2,Race=="White")
+#str(ds2_w)
+
+#Look at Black age-adjusted breast cancer mortality by state
+ds2_b<-filter(ds2,Race=="Black")
+#str(ds2_b)
+
+#put two datasets together for table creation
+all<-inner_join(ds2_w,ds2_b,by="State",suffix = c(".w", ".b"))
+#str(all)
+
+all1<-subset(all,select=c("State","Age_Adjusted_Rate.w","Age_Adjusted_Rate.b"))
+all1<- all1 %>% rename(White=Age_Adjusted_Rate.w) %>% rename(Black=Age_Adjusted_Rate.b)
+
+#get state abbreviations and regions to format output
+a<-state.abb
+State<-state.name
+region<-as.vector(state.region)
+getabbrev<-cbind(a,State,region)
+
+#final datasets for table and figure creation
+ds2_fig<-inner_join(ds2,getabbrev,by="State",copy=TRUE)
+all2<-inner_join(all1,getabbrev,by="State",copy=TRUE)
+```
+<!--format spacing in html doc-->
+<div style="margin-bottom:240px;"> 
+## Region: South
+```{r,gettbl}
+gettbl<-function(r,c){
+  dat2<-subset(all2,region==r)
+  dat3<-subset(dat2,select=c("State","White","Black"))
+  tbltxt<-paste("Table ",c,". Age adjusted breast cancer mortality rate by state and race (",r,")",sep="")
+  t<- dat3 %>% kbl(caption=tbltxt,format="html",row.names = F,valign='t') %>% kable_classic(full_width=F) %>% footnote(general = "NA = Data not available")%>%kable_styling(position="float_left")
+  return(t)
+}
+gettbl(r="South",c="1")
+
+#get max and min for text
+south<-subset(all2, region=="South")
+south$diff<-abs(south$Black-south$White)
+
+s.max<-south$State[south$diff==max(south$diff)]
+s.min<-south$State[south$diff==min(south$diff)]
+```
+
+
+
+We see that age adjusted breast cancer mortality rates vary by race in Southern states (Table 1). These disparities are greatest in `r s.max` and smallest in `r s.min` (shown in Table 1 and Figure 1).
+
+
+```{r, getfunc}
+#create bar charts of age adjusted mortality rate by state and race, separated by region
+getplots<-function(r,n,c){
+  dat<-subset(ds2_fig,region==r)
+  plottxt<-paste("Figure ",c,". Age adjusted breast cancer mortality rate by \nstate and race (",r,")",sep="")
+  f<-ggplot(dat, aes(x=Race, y=Age_Adjusted_Rate))+geom_col(aes(fill=Race))+ggtitle(plottxt)+
+    facet_wrap(~a, ncol=n)+ylab("Age adjusted breast cancer mortality rate")+
+    theme(legend.position="bottom",panel.spacing = unit(0.4, "lines"))
+  return(f)
+}
+
+getplots(r="South",n=4,c="1")
+# getplots(r="West",n=4,c="2")
+
+# getplots(r="North Central",n=4,c="4")
+```
+</div>
+<!--format spacing in html doc-->
+<div style="margin-bottom:170px;"> 
+## Region: Northeast
+```{r, netbl}
+gettbl(r="Northeast",c="2")
+
+#get max and min for text
+ne<-subset(all2, region=="Northeast" & !is.na(Black))
+ne$diff<-abs(ne$Black-ne$White)
+
+ne.max<-ne$State[ne$diff==max(ne$diff)]
+ne.min<-ne$State[ne$diff==min(ne$diff)]
+```
+
+
+We see that age adjusted breast cancer mortality rates vary by race in Northeastern states as well (Table 2). These disparities are greatest in `r ne.max` and smallest in `r ne.min` (shown in Table 2 and Figure 2).
+
+```{r,nefig}
+getplots(r="Northeast",n=4,c="2")
+```
+ <!--format spacing in html doc-->
+<div style="margin-bottom:140px;">
+## Region: North Central
+```{r, nctbl}
+gettbl(r="North Central",c="3")
+
+#get max and min for text
+nc<-subset(all2, region=="North Central" & !is.na(Black))
+nc$diff<-abs(nc$Black-nc$White)
+
+nc.max<-nc$State[nc$diff==max(nc$diff)]
+nc.min<-nc$State[nc$diff==min(nc$diff)]
+```
+
+
+We see that age adjusted breast cancer mortality rates vary by race in the North Central region (Table 3). These disparities are greatest in `r nc.max` and smallest in `r nc.min` (shown in Table 3 and Figure 3).
+
+```{r,ncfig}
+getplots(r="North Central",n=4,c="3")
+```
+</div>
+<!--format spacing in html doc-->
+<div style="margin-bottom:160px;"> 
+## Region: West
+```{r, wtbl}
+gettbl(r="West",c="4")
+
+#get max and min for text
+w<-subset(all2, region=="West" & !is.na(Black))
+w$diff<-abs(w$Black-w$White)
+
+w.max<-w$State[w$diff==max(w$diff)]
+w.min<-w$State[w$diff==min(w$diff)]
+```
+
+
+We see that age adjusted breast cancer mortality rates vary by race in the Western region as well (Table 4). These disparities are greatest in `r w.max` and smallest in `r w.min` (shown in Table 4 and Figure 4).
+
+```{r,wfig}
+getplots(r="West",n=4,c="4")
+```
+
+
