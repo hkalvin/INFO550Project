@@ -1,0 +1,101 @@
+State,Race,Age_Adjusted_Rate,a,region
+Alabama,Black,31.7,AL,South
+Alabama,White,23.8,AL,South
+Alaska,Black,18.7,AK,West
+Alaska,White,15.1,AK,West
+Arizona,White,14.8,AZ,West
+Arizona,Black,31.8,AZ,West
+Arkansas,White,26.9,AR,South
+Arkansas,Black,7.3,AR,South
+California,White,4.5,CA,West
+California,Black,26.6,CA,West
+Colorado,White,35.3,CO,West
+Colorado,Black,5,CO,West
+Connecticut,White,10.1,CT,Northeast
+Connecticut,Black,14.2,CT,Northeast
+Delaware,Black,3.6,DE,South
+Delaware,White,26.7,DE,South
+Florida,Black,24.5,FL,South
+Florida,White,27.6,FL,South
+Georgia,White,23,GA,South
+Georgia,Black,23.2,GA,South
+Hawaii,White,22.9,HI,West
+Hawaii,Black,11.9,HI,West
+Idaho,Black,21.6,ID,West
+Idaho,White,6.9,ID,West
+Illinois,White,23.3,IL,North Central
+Illinois,Black,16.2,IL,North Central
+Indiana,White,23.9,IN,North Central
+Indiana,Black,9.5,IN,North Central
+Iowa,Black,7.2,IA,North Central
+Iowa,White,28.9,IA,North Central
+Kansas,Black,27.9,KS,North Central
+Kansas,White,27.1,KS,North Central
+Kentucky,White,24.8,KY,South
+Kentucky,Black,39.1,KY,South
+Louisiana,White,12,LA,South
+Louisiana,Black,30.4,LA,South
+Maine,Black,25.3,ME,Northeast
+Maine,White,23.5,ME,Northeast
+Maryland,White,11.4,MD,South
+Maryland,Black,9.7,MD,South
+Massachusetts,White,22,MA,Northeast
+Massachusetts,Black,19.6,MA,Northeast
+Michigan,White,23.2,MI,North Central
+Michigan,Black,35.7,MI,North Central
+Minnesota,White,20.2,MN,North Central
+Minnesota,Black,9.1,MN,North Central
+Mississippi,Black,22.5,MS,South
+Mississippi,White,23.2,MS,South
+Missouri,White,19.7,MO,North Central
+Missouri,Black,26.3,MO,North Central
+Montana,White,32,MT,West
+Montana,Black,11.5,MT,West
+Nebraska,White,38,NE,North Central
+Nebraska,Black,27.7,NE,North Central
+Nevada,White,23.3,NV,West
+Nevada,Black,10.3,NV,West
+New Hampshire,White,24,NH,Northeast
+New Hampshire,Black,23.3,NH,Northeast
+New Jersey,White,27.1,NJ,Northeast
+New Jersey,Black,34.6,NJ,Northeast
+New Mexico,White,22.1,NM,West
+New Mexico,Black,21.7,NM,West
+New York,White,26.4,NY,Northeast
+New York,Black,35.6,NY,Northeast
+North Carolina,White,6,NC,South
+North Carolina,Black,33.6,NC,South
+North Dakota,Black,16,ND,North Central
+North Dakota,White,23.2,ND,North Central
+Ohio,White,12.5,OH,North Central
+Ohio,Black,11.1,OH,North Central
+Oklahoma,White,25.6,OK,South
+Oklahoma,Black,22.5,OK,South
+Oregon,White,23.1,OR,West
+Oregon,Black,15.9,OR,West
+Pennsylvania,White,24.1,PA,Northeast
+Pennsylvania,Black,24.9,PA,Northeast
+Rhode Island,White,22.9,RI,Northeast
+Rhode Island,Black,12,RI,Northeast
+South Carolina,White,12.5,SC,South
+South Carolina,Black,30.6,SC,South
+South Dakota,White,34.2,SD,North Central
+South Dakota,Black,29.8,SD,North Central
+Tennessee,White,24,TN,South
+Tennessee,Black,29.4,TN,South
+Texas,White,29,TX,South
+Texas,Black,7,TX,South
+Utah,White,15,UT,West
+Utah,Black,26.2,UT,West
+Vermont,White,23.1,VT,Northeast
+Vermont,Black,19.5,VT,Northeast
+Virginia,White,28.6,VA,South
+Virginia,Black,12.5,VA,South
+Washington,White,13.8,WA,West
+Washington,Black,34.2,WA,West
+West Virginia,White,19.2,WV,South
+West Virginia,Black,14.6,WV,South
+Wisconsin,White,18.8,WI,North Central
+Wisconsin,Black,12.7,WI,North Central
+Wyoming,Black,11.1,WY,West
+Wyoming,White,10.5,WY,West

@@ -14,13 +14,30 @@ for(p in pkgs){
 }
 ```
 
-## Execute the analysis
-
-To execute the analysis, from the project folder you can run 
-
+You may also install necessary `R` packages using make install from the project folder.
 ``` bash
-Rscript -e "rmarkdown::render('HKalvin_HW4.Rmd')"
+make install
 ```
 
-This will create a file called `HKalvin_HW4.html` output in your directory that contains the results.
+## Execute the analysis
 
+To create the analysis report, from the project folder you can run 
+
+``` bash
+make report
+```
+
+This will create a file called `HKalvin_report.html` output in your directory that contains the results.
+
+To clean the data, from the project folder you can run 
+``` bash
+make clean_data
+```
+
+This will create cleaned analysis datasets saved to the clean_data folder within the project folder.
+
+For more information on the Makefile targets, from the project folder you can run
+
+``` bash
+make help
+```
