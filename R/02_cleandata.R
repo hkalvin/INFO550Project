@@ -44,9 +44,9 @@ ds2_fig<-inner_join(ds2,getabbrev,by="State",copy=TRUE)
 all2<-inner_join(all1,getabbrev,by="State",copy=TRUE)
 
 #save to folder
-figpath<-paste(ds_out,"forfigure/ds2_fig.csv",sep="")
+figpath<-paste(ds_out,"ds2_fig.csv",sep="")
 write_csv(ds2_fig,figpath)
 
-tblpath<-paste(ds_out,"fortable/all2.csv",sep="")
+tblpath<-paste(ds_out,"all2.csv",sep="")
 write_csv(all2,tblpath)
 

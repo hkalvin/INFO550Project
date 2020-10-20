@@ -26,8 +26,8 @@ library (readr)
 
 
 #read in table and figure clean data
-ds2_fig<-read_csv("../clean_data/forfigure/ds2_fig.csv",col_names=TRUE)
-all2<-read_csv("../clean_data/fortable/all2.csv",col_names=TRUE)
+ds2_fig<-read_csv("../clean_data/ds2_fig.csv",col_names=TRUE)
+all2<-read_csv("../clean_data/all2.csv",col_names=TRUE)
 ```
 
 ```{r, loadfunction}

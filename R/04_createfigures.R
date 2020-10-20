@@ -7,7 +7,7 @@ library(ggplot2)
 library (readr)
 #create figures for report document
 #load data
-ds2_fig<-read_csv("./clean_data/forfigure/ds2_fig.csv",col_names=TRUE)
+ds2_fig<-read_csv("./clean_data/ds2_fig.csv",col_names=TRUE)
 
 #load figure function made in program 03b
 source("./R/03b_create_getplotsfunction.R")
