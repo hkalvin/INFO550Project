@@ -29,5 +29,5 @@ help:
 	@echo "install                : check to see if necessary packages for report generation are installed in R, and install those that are missing."
 	@echo "clean_data/ds2_fig.csv : clean raw data for figure creation for report (creates clean_data/ds2_fig.csv)"
 	@echo "clean_data/all2.csv    : clean raw data for table creation for report (creates clean_data/all2.csv)"
-	@echo "figures/%.png          : generate breast cancer mortality figures by region, creates four .png files saved to figures folder"
+	@echo "figures/%.png          : generate four breast cancer mortality figures by region (south.png, west.png, northcentral.png and northeast.png) saved to figures folder"
 	@echo "report                 : Generate final analysis report, HKalvin_report.html"
