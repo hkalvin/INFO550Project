@@ -14,20 +14,20 @@ knitr::opts_chunk$set(
 ## Introduction
 This document looks at breast cancer age adjusted mortality rates in non-Hispanic women between 2003 and 2017. We specifically compare mortality rates among non-Hispanic white women and non-Hispanic Black women on the state level. In order to make the output easier to evaluate, tables and figures are grouped by region (as defined by the United States Census Bureau). Breast cancer age-adjusted mortality rates were extracted from SEER and calculated using standardized populations from the United States Census Bureau. Note that all data has been scrambled or replaced with simulated values so that this can be publicly viewed.
 
-```{r, load_ds_and_packages}
+```{r, load_ds_and_package,message=FALSE}
 #NOTE: packages must be installed in R before being loaded below. See README.md file for instructions
 
 #load packages
-library(tidyverse)
-library(magrittr)
-library(kableExtra)
-library(ggplot2)
-library (readr)
+suppressMessages(library(tidyverse))
+suppressMessages(library(magrittr))
+suppressMessages(library(kableExtra))
+suppressMessages(library(ggplot2))
+suppressMessages(library (readr))
 
 
 #read in table and figure clean data
-ds2_fig<-read_csv("../clean_data/ds2_fig.csv",col_names=TRUE)
-all2<-read_csv("../clean_data/all2.csv",col_names=TRUE)
+suppressMessages(ds2_fig<-read_csv("../clean_data/ds2_fig.csv",col_names=TRUE))
+suppressMessages(all2<-read_csv("../clean_data/all2.csv",col_names=TRUE))
 ```
 
 ```{r, loadfunction}
@@ -61,7 +61,7 @@ knitr::include_graphics("../figures/south.png")
 ```
 </div>
 <!--format spacing in html doc-->
-<div style="margin-bottom:200px;"> 
+<div style="margin-bottom:160px;"> 
 ## Region: Northeast
 ```{r, netbl}
 gettbl(r="Northeast",c="2")

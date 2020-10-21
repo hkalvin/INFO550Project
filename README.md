@@ -21,7 +21,7 @@ make install
 
 ## Execute the analysis
 
-To create the analysis report, from the project folder you can run 
+Packages must be installed prior to creating the report (i.e. run make install before make report). To create the analysis report, from the project folder you can run 
 
 ``` bash
 make report
@@ -33,12 +33,14 @@ This will create a file called `HKalvin_report.html` which will output in your d
 
 To clean the data, from the project folder you can run 
 ``` bash
-make clean_data/%.csv
+make clean_data/all2.csv
+make clean_data/ds2_fig.csv
 ```
+All2.csv will be used to generate the report tables and ds2_fig.csv will be used to generate the figures in the report.
 
 This will create cleaned analysis datasets saved to the clean_data folder within the project folder (creates two .csv files - all2.csv and ds2_fig.csv).
 
-To generate the figures used in the analysis report, you can run
+To generate all four figures used in the analysis report, you can run
 ``` bash
 make figures/%.png
 ```
