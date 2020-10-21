@@ -38,7 +38,7 @@ make clean_data/ds2_fig.csv
 ```
 All2.csv will be used to generate the report tables and ds2_fig.csv will be used to generate the figures in the report.
 
-This will create cleaned analysis datasets saved to the clean_data folder within the project folder (creates two .csv files - all2.csv and ds2_fig.csv).
+Both cleaned analysis datasets will be saved to the clean_data folder within the project folder.
 
 To generate all four figures used in the analysis report, you can run
 ``` bash
