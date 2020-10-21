@@ -2,27 +2,18 @@
 
 For my project, I will analyze the a simulated dataset similar to the structure of SEER. The data contains age-adjusted breast cancer mortality rates by state and race.
 
-To analyze the data you will need to install some `R` packages. The required packages can be installed using `R` commands.
+To analyze the data you will need to install some `R` packages. 
 
-``` r
-installed_pkgs <- row.names(installed.packages())
-pkgs <- c("readr", "ggplot2","tidyverse","magrittr","kableExtra")
-for(p in pkgs){
-	if(!(p %in% installed_pkgs)){
-		install.packages(p)
-	}
-}
-```
-
-You may also install necessary `R` packages using make install from the project folder.
+The required `R` packages can be installed using make install in terminal once you have navigated to the project folder.
 ``` bash
 make install
 ```
 
 ## Execute the analysis
 
-Packages must be installed prior to creating the report (i.e. run make install before make report). To create the analysis report, from the project folder you can run 
+Packages must be installed prior to creating the report (i.e. run make install before make report). You will notice that the repo contains some empty folders. This is purposeful as you can run the commands below in order to create the files that belong in each of those empty folders.
 
+To create the analysis report, from the project folder you can run 
 ``` bash
 make report
 ```
