@@ -2,6 +2,27 @@
 
 For my project, I will analyze the a simulated dataset similar to the structure of SEER. The data contains age-adjusted breast cancer mortality rates by state and race.
 
+## Conduct analysis using Docker
+
+You will first need to pull the docker container in order to run the analysis and produce the report.
+
+To pull the docker container, you can use the following code in your terminal:
+```bash
+docker pull hkalvin/infoproj
+```
+
+Then build the image:
+```bash
+make build
+```
+
+And run docker image to produce the report.
+```bash
+docker run infoproj
+```
+
+## Conduct analysis within terminal (without Docker)
+
 To analyze the data you will need to install some `R` packages. 
 
 The required `R` packages can be installed using make install in terminal once you have navigated to the project folder.
