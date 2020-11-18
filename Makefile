@@ -1,4 +1,8 @@
 
+#rule for building Dockerfile
+build:
+	docker build -t infoproj .
+
 #rule for making report
 report: R/HKalvin_report.Rmd clean_data/all2.csv clean_data/ds2_fig.csv figures/south.png figures/northeast.png figures/northcentral.png figures/west.png
 	Rscript -e "rmarkdown::render('R/HKalvin_report.Rmd', quiet = TRUE, output_file='../HKalvin_report.html')"
@@ -26,6 +30,7 @@ figures/%.png: clean_data/ds2_fig.csv R/04_createfigures.R
 #rule for help file
 .PHONY: help
 help: 
+	@echo "build                  : build docker image to create report."
 	@echo "install                : check to see if necessary packages for report generation are installed in R, and install those that are missing."
 	@echo "clean_data/ds2_fig.csv : clean raw data for figure creation for report (creates clean_data/ds2_fig.csv)"
 	@echo "clean_data/all2.csv    : clean raw data for table creation for report (creates clean_data/all2.csv)"
