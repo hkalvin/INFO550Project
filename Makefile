@@ -5,7 +5,7 @@ build:
 
 #rule for making report
 report: R/HKalvin_report.Rmd clean_data/all2.csv clean_data/ds2_fig.csv figures/south.png figures/northeast.png figures/northcentral.png figures/west.png
-	Rscript -e "rmarkdown::render('R/HKalvin_report.Rmd', quiet = TRUE, output_file='../HKalvin_report.html')"
+	Rscript -e "rmarkdown::render('R/HKalvin_report.Rmd', quiet = TRUE, output_file='../output/HKalvin_report.html')"
 
 #rule for installing packages
 install: R/01_installpackages.R

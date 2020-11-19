@@ -6,19 +6,28 @@ For my project, I will analyze the a simulated dataset similar to the structure 
 
 You will first need to pull the docker container in order to run the analysis and produce the report.
 
-First fork and clone the git repository to your a folder on your local computer. The code below assumes that your local folder is named INFO550Project - update to reflect the name of your folder accordingly.
+First fork and clone the git repository to your a folder in the root directory on your local computer. The code below assumes that your local folder in the root directory is named INFO550Project - make sure to update to reflect the name of your folder accordingly.
 
 Then, to pull the docker container, you can use the following code in your terminal:
 ```bash
 docker pull hkalvin/infoproj
 ```
 
-Then run docker image to produce the report. The image below
+Next, create a new folder for the report output within the INFO550Project folder, which contains the information you cloned from the github repository. You may use the code below to create this folder.
+```bash
+cd INFO550Project/
+mkdir output
+```
+
+Then run docker image to produce the report. The code below assumes that the folder where you cloned this directory is 1) located in the root folder and 2) is named INFO550Project. If you change either of these, please be sure to update accordingly the file path in the portion of the bash code below before the colon.
 ```bash
 docker run -v ~/INFO550Project:/project hkalvin/infoproj
 ```
 
-## Conduct analysis within terminal (without Docker)
+
+
+
+## If you do not have Docker, the information below details how to create the report within terminal
 
 To analyze the data you will need to install some `R` packages. 
 
